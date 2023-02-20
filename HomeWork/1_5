@@ -1,0 +1,41 @@
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip install pyyaml
+Collecting pyyaml
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.3.1
+    Uninstalling pip-22.3.1:
+Successfully installed pip-23.0.1
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip install pyyaml
+Requirement already satisfied: pyyaml in c:\users\power-pc\pycharmproject\belhard\venv\lib\site-packages (6.0)
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip install ^C
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip install pandas
+Collecting pandas
+     ---------------------------------------- 11.0/11.0 MB 325.2 kB/s eta 0:00:00
+Collecting python-dateutil>=2.8.1
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+     ---------------------------------------- 499.4/499.4 kB 304.0 kB/s eta 0:00:00
+Collecting numpy>=1.20.3
+  Downloading numpy-1.24.2-cp38-cp38-win_amd64.whl (14.9 MB)
+     ---------------------------------------- 14.9/14.9 MB 287.1 kB/s eta 0:00:00
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, six, numpy, python-dateutil, pandas
+Successfully installed numpy-1.24.2 pandas-1.5.3 python-dateutil-2.8.2 pytz-2022.7.1 six-1.16.0
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip install  pip-autoremove
+Collecting pip-autoremove
+  Downloading pip_autoremove-0.10.0-py2.py3-none-any.whl (5.0 kB)
+Requirement already satisfied: pip in c:\users\power-pc\pycharmproject\belhard\venv\lib\site-packages (from pip-autoremove) (23.0.1)
+Requirement already satisfied: setuptools in c:\users\power-pc\pycharmproject\belhard\venv\lib\site-packages (from pip-autoremove) (65.5.1)
+Installing collected packages: pip-autoremove
+Successfully installed pip-autoremove-0.10.0
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard> pip-autoremove pyyaml
+Traceback (most recent call last):
+  File "C:\Users\Power-PC\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Power-PC\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Power-PC\PycharmProject\BelHard\venv\Scripts\pip-autoremove.exe\__main__.py", line 4, in <module>
+ModuleNotFoundError: No module named 'pip_autoremove'
+(venv) PS C:\Users\Power-PC\PycharmProject\BelHard>
