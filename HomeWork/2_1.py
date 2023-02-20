@@ -18,3 +18,9 @@ for i in range(1,n+1):
     #print(value)
     result.append(value)
 print(result)
+
+# Введите число n
+# 8
+# [2, 4, 8, 16, 32, 64, 128, 256]
+#
+# Process finished with exit co
