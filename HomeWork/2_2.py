@@ -14,7 +14,7 @@
 print("Введите текст с клавиатуры")
 text = input()
 listt=[*text]
-print(list)
+print(listt)
 unique_letters = list(set(listt))
 print(unique_letters)
 slovar = dict()
