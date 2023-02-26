@@ -3,12 +3,24 @@
 # образом, чтобы остались только строки, использование дополнительного списка
 # незаконно
 #
-spisok = [str(dfgh),int(4), bool(false),bin(011001),
-          str(dfgh1),int(41), bool(true),bin(011011)]          ]
-for i in spisok:
-    if type(i) != <class 'str'> :
-        spisok.pop()
+spisok = ['dfgh', int(1), bool(10), 'dfgh1', int(41), bool(0), 'dfgh2']
 print(spisok)
+for i in spisok:
+    print(type(i))
+    if type(i) != str:
+        spisok.remove(i)
+print(spisok)
+
+# ['dfgh', 1, True, 'dfgh1', 41, False, 'dfgh2']
+# <class 'str'>
+# <class 'int'> ??????????????????
+# <class 'str'>
+# <class 'int'>
+# <class 'str'>
+# ['dfgh', True, 'dfgh1', False, 'dfgh2']
+#
+# Process finished with exit code 0
+
 
 
 
